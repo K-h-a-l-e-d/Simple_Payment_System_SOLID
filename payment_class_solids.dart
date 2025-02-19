@@ -33,7 +33,7 @@ abstract class PaymentProcess extends Payment {
 }
 
 // D: Dependency Inversion Principle: higher level modules don't
-//depend on Lower level modules depend on high level super
+//depend on Lower level modules 
 
 class MasterCardPaymentMethod implements Payment {
   @override
